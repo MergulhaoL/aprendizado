@@ -1,83 +1,13 @@
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~
 $ dir
-3D\ Objects
-Ambiente\ de\ Impressão
-Ambiente\ de\ Rede
-AppData
-Configurações\ Locais
-Contacts
-Cookies
-Dados\ de\ Aplicativos
-Desktop
-Documents
-Downloads
-Favorites
-Links
-Menu\ Iniciar
-Meus\ Documentos
-Modelos
-Music
-NTUSER.DAT
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
-OneDrive
-Pictures
-Recent
-Saved\ Games
-Searches
-SendTo
-Videos
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-ntuser.ini
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~
 $ mkdir git
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~
 $ dir
-3D\ Objects
-Ambiente\ de\ Impressão
-Ambiente\ de\ Rede
-AppData
-Configurações\ Locais
-Contacts
-Cookies
-Dados\ de\ Aplicativos
-Desktop
-Documents
-Downloads
-Favorites
-Links
-Menu\ Iniciar
-Meus\ Documentos
-Modelos
-Music
-NTUSER.DAT
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
-NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
-NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
-OneDrive
-Pictures
-Recent
-Saved\ Games
-Searches
-SendTo
-Videos
-git
-ntuser.dat.LOG1
-ntuser.dat.LOG2
-ntuser.ini
+
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~
 $ cd git
@@ -110,7 +40,7 @@ Omit --global to set the identity only in this repository.
 fatal: unable to auto-detect email address (got 'Luiz@DESKTOP-CNSOLME.(none)')
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
-$ ^C
+$ 
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
 $  git config --global user.email "mergulhao1818@gmail.com"
@@ -159,10 +89,6 @@ index 7c860ac..006d876 100644
 \ No newline at end of file
 
 Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
-$ git diff -Nup
-error: invalid option: -Nup
-
-Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
 $ git commit -m"corrigi a carta"                       On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -205,9 +131,3 @@ Author: Luis Enrique Gomes Mergulhão <mergulhao1818@gmail.com>
 Date:   Fri Feb 4 00:12:04 2022 -0300
 
     criei a carta
-
-Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
-$ ^C
-
-Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
-$
