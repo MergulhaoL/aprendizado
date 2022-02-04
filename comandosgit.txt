@@ -1,0 +1,213 @@
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~
+$ dir
+3D\ Objects
+Ambiente\ de\ Impressão
+Ambiente\ de\ Rede
+AppData
+Configurações\ Locais
+Contacts
+Cookies
+Dados\ de\ Aplicativos
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Menu\ Iniciar
+Meus\ Documentos
+Modelos
+Music
+NTUSER.DAT
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+OneDrive
+Pictures
+Recent
+Saved\ Games
+Searches
+SendTo
+Videos
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~
+$ mkdir git
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~
+$ dir
+3D\ Objects
+Ambiente\ de\ Impressão
+Ambiente\ de\ Rede
+AppData
+Configurações\ Locais
+Contacts
+Cookies
+Dados\ de\ Aplicativos
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Menu\ Iniciar
+Meus\ Documentos
+Modelos
+Music
+NTUSER.DAT
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+OneDrive
+Pictures
+Recent
+Saved\ Games
+Searches
+SendTo
+Videos
+git
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~
+$ cd git
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git
+$ git clone https://github.com/MergulhaoL/aprendizado.git
+Cloning into 'aprendizado'...
+warning: You appear to have cloned an empty repository.
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git
+$ cd aprendizado/
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git add carta.txt
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git commit -m"criei a carta"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Luiz@DESKTOP-CNSOLME.(none)')
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ ^C
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$  git config --global user.email "mergulhao1818@gmail.com"
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git config --global user.name "Luis Enrique Gomes Mergulhão"
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git commit -m"criei a carta"                         [main (root-commit) 1e47971] criei a carta
+ 1 file changed, 3 insertions(+)
+ create mode 100644 carta.txt
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git log
+commit 1e47971e36743cd41ded9b933c0dd2a2967e5dc4 (HEAD -> main)
+Author: Luis Enrique Gomes Mergulhão <mergulhao1818@gmail.com>
+Date:   Fri Feb 4 00:12:04 2022 -0300
+
+    criei a carta
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 323 bytes | 107.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MergulhaoL/aprendizado.git
+ * [new branch]      main -> main
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git diff
+diff --git a/carta.txt b/carta.txt
+index 7c860ac..006d876 100644
+--- a/carta.txt
++++ b/carta.txt
+@@ -1,3 +1,3 @@
+-acordei, tomei café, escovei os dentes, tomei banho e estudei.
+-sai, fui no cinema.
+-voltei para casa, e dormi.
+\ No newline at end of file
++Acordei, tomei café, escovei os dentes, tomei banho e estudei.^M
++Voltei para casa, e dormi.^M
++Acordei, fui passear com o cachorro.
+\ No newline at end of file
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git diff -Nup
+error: invalid option: -Nup
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git commit -m"corrigi a carta"                       On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   carta.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git add carta.txt
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git commit -m"corrigi a carta"
+[main 284f072] corrigi a carta
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 366 bytes | 366.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MergulhaoL/aprendizado.git
+   1e47971..284f072  main -> main
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ git log
+commit 284f07220de11446e754617f36da7e6af4231d8b (HEAD -> main, origin/main)
+Author: Luis Enrique Gomes Mergulhão <mergulhao1818@gmail.com>
+Date:   Fri Feb 4 00:24:28 2022 -0300
+
+    corrigi a carta
+
+commit 1e47971e36743cd41ded9b933c0dd2a2967e5dc4
+Author: Luis Enrique Gomes Mergulhão <mergulhao1818@gmail.com>
+Date:   Fri Feb 4 00:12:04 2022 -0300
+
+    criei a carta
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$ ^C
+
+Luiz@DESKTOP-CNSOLME MINGW64 ~/git/aprendizado (main)
+$
